@@ -1,59 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kritik dan Saran | Kuliner Nusantara</title>
+    <link rel="stylesheet" href="assets/css/form.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
-  <body bgcolor="F9DBBA">
-    <iframe src="Navbar.html" width="30%" height="70px" frameborder=""></iframe>
-    <h1>
-      <font face="Artifakt Element Black">Form Input Kritik dan Saran</font>
-    </h1>
-    <form>
-      <table border="7" cellpadding="8" width="700px">
-        <tr>
-          <td>Nama Lengkap:</td>
-          <td><input type="text" name="nama" /></td>
-        </tr>
-        <tr>
-          <td>Penilaian:</td>
-          <td>
-            <input type="radio" name="Penilaian" value="tidak-puas" /> Tidak
-            Puas <input type="radio" name="Penilaian" value="puas" /> Puas
-          </td>
-        </tr>
-        <tr>
-          <td>Kritik dan Saran:</td>
-          <td><textarea name="kritik-saran" rows="7" cols="30"></textarea></td>
-        </tr>
-        <tr>
-          <td colspan="">Makanan yang Diminati:</td>
-          <td>
-            <select name="Makanan">
-              <option value="">-- Makanan --</option>
+  <body>
+    <header>
+      <iframe src="Navbar.html" class="navbar"></iframe>
+    </header>
+    <main>
+      <section class="form-section">
+        <h1>Form Kritik dan Saran</h1>
+        <p>
+          Kami sangat menghargai masukan dari Anda. Mohon lengkapi formulir di bawah ini untuk membantu kami menjadi lebih baik.
+        </p>
+        <form id="kritikSaranForm" class="form-container">
+          <div class="form-group">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda">
+          </div>
+          <div class="form-group">
+            <label>Penilaian:</label>
+            <div class="form-radio">
+              <label><input type="radio" name="penilaian" value="tidak-puas"> Tidak Puas</label>
+              <label><input type="radio" name="penilaian" value="puas"> Puas</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="kritikSaran">Kritik dan Saran:</label>
+            <textarea id="kritikSaran" name="kritik-saran" rows="5" placeholder="Tulis kritik dan saran Anda di sini"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="makanan">Makanan yang Diminati:</label>
+            <select id="makanan" name="makanan">
+              <option value="">-- Pilih Makanan --</option>
               <option value="Sumatera">Sumatera</option>
               <option value="Jawa">Jawa</option>
               <option value="Kalimantan">Kalimantan</option>
               <option value="Sulawesi">Sulawesi</option>
-              <option value="Bali dan Nusa Tenggara">
-                Bali dan Nusa Tenggara
-              </option>
+              <option value="Bali dan Nusa Tenggara">Bali dan Nusa Tenggara</option>
               <option value="Maluku dan Papua">Maluku dan Papua</option>
             </select>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <input type="submit" value="Submit" />
-            <input type="reset" value="Clear" />
-          </td>
-        </tr>
-      </table>
-    </form>
+          </div>
+          <div class="form-buttons">
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+          </div>
+        </form>
+      </section>
+    </main>
     <footer>
-      <p>
-        &copy; <font face="Dubai"><b>2024 Kelompok 3 R5G</b></font>
-      </p>
+      <p>&copy; 2024 Kelompok 3 R5G</p>
     </footer>
+    <script src="assets/js/form.js"></script>
   </body>
 </html>

@@ -1,0 +1,148 @@
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F9FF;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    color: #4CB9E7;
+  }
+  
+  p {
+    line-height: 1.8;
+    margin: 10px 0;
+  }
+  
+
+  header .navbar {
+    width: 100%;
+    height: 70px;
+    border: none;
+  }
+  
+
+  main {
+    padding: 20px;
+  }
+  
+  .main-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+  }
+  
+  .intro {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .highlight {
+    color: #4CB9E7;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .media {
+    margin: 20px auto;
+    max-width: 900px;
+  }
+  
+  .banner-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .promo-video {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #4CB9E7;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+.slider-container {
+    position: relative;
+    max-width: 900px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    height: auto;
+  }
+  
+  .slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .slider-button.prev {
+    left: 10px;
+  }
+  
+  .slider-button.next {
+    right: 10px;
+  }
+  
+  .slider-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  @media (max-width: 768px) {
+    .intro {
+      padding: 15px;
+    }
+  
+    .main-title {
+      font-size: 2rem;
+    }
+  
+    .highlight {
+      font-size: 1rem;
+    }
+  }
+  

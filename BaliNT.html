@@ -4,186 +4,238 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bali dan Nusa Tenggara | Kuliner Nusantara</title>
+    <link rel="stylesheet" href="assets/css/makanan-daerah.css" />
+    <script defer src="assets/js/makanan-daerah.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
+  <body>
+    <header>
+      <iframe src="Navbar.html" class="navbar"></iframe>
+      <h1 class="title">Makanan Daerah Jawa</h1>
+    </header>
+    <main>
+      <section id="Bali" class="region-section">
+        <h2 class="region-title">Bali</h2>
+        <div class="food-list">
+          <div class="food-item">
+            <img
+              class="food-image"
+              src="assets/images/ayam-betutu.jpg"
+              alt="Ayam Betutu"
+            />
+            <div class="food-details">
+              <h3>Ayam Betutu</h3>
+              <p>
+                Ayam Betutu adalah hidangan khas Bali yang terdiri dari ayam
+                yang dibumbui dengan rempah-rempah khas Bali, kemudian dibungkus
+                daun pisang dan dimasak dengan cara dipanggang atau dikukus.
+                Rempah-rempah yang digunakan biasanya meliputi bawang merah,
+                bawang putih, cabai, kunyit, jahe, lengkuas, serai, dan daun
+                jeruk. Ayam Betutu dikenal karena rasanya yang pedas dan kaya
+                bumbu, serta proses memasaknya yang cukup lama untuk memastikan
+                bumbu meresap dengan sempurna.
+              </p>
+              <p>
+                Hidangan ini biasanya disajikan dengan nasi putih, sambal, dan
+                sayuran seperti kacang panjang atau plecing kangkung. Ayam
+                Betutu adalah salah satu kuliner tradisional yang populer,
+                terutama dalam acara-acara adat atau upacara di Bali.
+              </p>
+              <button class="recipe-btn" onclick="showRecipe('ayam-betutu')">
+                Lihat Resep
+              </button>
+            </div>
+          </div>
+          <div class="food-item">
+            <img class="food-image" src="assets/images/lawar.jpg" alt="Lawar" />
+            <div class="food-details">
+              <h3>Lawar</h3>
+              <p>
+                Lawar adalah hidangan tradisional Bali yang berupa campuran
+                sayuran, daging cincang, dan parutan kelapa yang dibumbui dengan
+                berbagai rempah-rempah khas Bali. Hidangan ini biasanya
+                menggunakan daging babi atau ayam, meskipun ada juga variasi
+                yang menggunakan bebek, sapi, atau bahkan tanpa daging bagi
+                vegetarian. Beberapa jenis lawar juga mencampurkan darah hewan
+                yang baru dipotong untuk memberikan warna dan rasa khas.
+              </p>
 
-  <body bgcolor="EBD9B4">
-    <iframe src="Navbar.html" width="30%" height="70px" frameborder=""></iframe>
-    <h1>
-      <font face="Artifakt Element Black"
-        >Makanan Daerah Bali dan Nusa Tenggara</font
-      >
-    </h1>
-    <h2>Daftar Isi</h2>
-    <ol>
-      <li><a href="#bali">Bali</a></li>
-      <li>
-        <a href="#nusa-tenggara-barat">Nusa Tenggara Barat</a>
-      </li>
-      <li>
-        <a href="#nusa-tenggara-timur">Nusa Tenggara Timur</a>
-      </li>
-    </ol>
-    <h2 id="bali">1. Bali</h2>
-    <dl>
-      <dt type="none">
-        <h3>Ayam Betutu</h3>
-      </dt>
-      <dd>
-        <img src="assets/images/ayam-betutu.jpg" alt="" width="500px" />
-        <p>
-          Ayam Betutu adalah hidangan khas Bali yang terdiri dari ayam yang
-          dibumbui dengan rempah-rempah khas Bali, kemudian dibungkus daun
-          pisang dan dimasak dengan cara dipanggang atau dikukus. Rempah-rempah
-          yang digunakan biasanya meliputi bawang merah, bawang putih, cabai,
-          kunyit, jahe, lengkuas, serai, dan daun jeruk. Ayam Betutu dikenal
-          karena rasanya yang pedas dan kaya bumbu, serta proses memasaknya yang
-          cukup lama untuk memastikan bumbu meresap dengan sempurna.
-        </p>
-        <p>
-          Hidangan ini biasanya disajikan dengan nasi putih, sambal, dan sayuran
-          seperti kacang panjang atau plecing kangkung. Ayam Betutu adalah salah
-          satu kuliner tradisional yang populer, terutama dalam acara-acara adat
-          atau upacara di Bali.
-        </p>
-      </dd>
-      <dt>
-        <h3>Lawar</h3>
-      </dt>
-      <dd>
-        <img src="assets/images/lawar.jpg" alt="" width="500px" />
-        <p>
-          Lawar adalah hidangan tradisional Bali yang berupa campuran sayuran,
-          daging cincang, dan parutan kelapa yang dibumbui dengan berbagai
-          rempah-rempah khas Bali. Hidangan ini biasanya menggunakan daging babi
-          atau ayam, meskipun ada juga variasi yang menggunakan bebek, sapi,
-          atau bahkan tanpa daging bagi vegetarian. Beberapa jenis lawar juga
-          mencampurkan darah hewan yang baru dipotong untuk memberikan warna dan
-          rasa khas.
-        </p>
-        <p>
-          Bahan utama dalam lawar adalah kacang panjang yang dicampur dengan
-          kelapa parut yang disangrai, bawang merah, bawang putih, cabai,
-          kunyit, lengkuas, dan daun jeruk. Lawar juga sering kali menggunakan
-          terasi (pasta udang) dan bumbu Bali yang kaya akan cita rasa.
-        </p>
-        <p>
-          Lawar biasanya disajikan sebagai lauk pendamping nasi dan menjadi
-          bagian dari sajian dalam upacara adat atau pesta besar di Bali.
-          Terdapat berbagai jenis lawar, seperti lawar merah (mengandung darah),
-          lawar putih (tanpa darah), dan lawar sayuran.
-        </p>
-      </dd>
-    </dl>
-    <h2 id="nusa-tenggara-barat">2. Nusa Tenggara Barat</h2>
-    <dl>
-      <dt type="none">
-        <h3>Sate Rembiga</h3>
-      </dt>
-      <dd>
-        <img src="assets/images/sate-rembiga.jpeg" alt="" width="500px" />
-        <p>
-          Sate Rembiga adalah sate khas Lombok, Nusa Tenggara Barat, yang
-          terkenal dengan cita rasa pedas dan gurih. Sate ini biasanya dibuat
-          dari daging sapi yang dipotong kecil-kecil, lalu dibumbui dengan
-          rempah-rempah khas seperti cabai, bawang putih, bawang merah, gula
-          merah, terasi, dan garam. Setelah daging dibumbui, sate dipanggang di
-          atas arang hingga matang sempurna, menciptakan aroma bakaran yang
-          menggugah selera.
-        </p>
-        <p>
-          Keunikan Sate Rembiga terletak pada bumbu pedas manis yang meresap
-          hingga ke dalam daging, memberikan sensasi rasa yang kaya dan kuat.
-          Sate ini dinamai dari desa asalnya, yaitu Desa Rembiga, yang terletak
-          di kota Mataram, Lombok. Sate Rembiga biasanya disajikan dengan
-          lontong atau nasi, serta sambal dan irisan mentimun untuk menambah
-          kesegaran.
-        </p>
-      </dd>
-      <dt>
-        <h3>Ayam Taliwang</h3>
-      </dt>
-      <dd>
-        <img src="assets/images/ayam-taliwang.jpe" alt="" width="500px" />
-        <p>
-          Ayam Taliwang adalah hidangan khas dari Lombok, Nusa Tenggara Barat,
-          yang terkenal dengan rasa pedas, gurih, dan kaya rempah. Hidangan ini
-          menggunakan ayam kampung muda yang dibakar atau digoreng, lalu
-          disajikan dengan bumbu khas yang terbuat dari cabai merah, bawang
-          merah, bawang putih, tomat, terasi, dan garam. Bumbu tersebut diolah
-          menjadi sambal yang dilumurkan pada ayam sebelum dan sesudah proses
-          pembakaran, sehingga bumbunya meresap sempurna.
-        </p>
-        <p>
-          Rasa Ayam Taliwang sangat khas, dengan perpaduan pedas dan sedikit
-          manis dari bumbu bakarnya. Beberapa variasi juga menambahkan perasan
-          jeruk limau atau kencur untuk memberikan sentuhan segar. Hidangan ini
-          biasanya disajikan dengan nasi hangat, plecing kangkung (sayuran khas
-          Lombok), dan sambal tambahan bagi yang menyukai rasa ekstra pedas.
-          Ayam Taliwang merupakan salah satu kuliner ikonik yang wajib dicoba
-          saat berkunjung ke Lombok.
-        </p>
-      </dd>
-    </dl>
-    <h2 id="nusa-tenggara-timur">3. Nusa Tenggara Timur</h2>
-    <dl>
-      <dt type="none">
-        <h3>Sei Sapi</h3>
-      </dt>
-      <dd>
-        <img src="assets/images/sei-sapi.jpg" alt="" width="500px" />
-        <p>
-          Sei Sapi adalah hidangan khas dari Nusa Tenggara Timur (NTT), terutama
-          populer di Pulau Rote dan Kota Kupang. "Sei" dalam bahasa Rote berarti
-          "daging asap", sehingga Sei Sapi merujuk pada daging sapi yang diolah
-          dengan cara diasapi. Daging sapi dipotong tipis memanjang, kemudian
-          diasapi menggunakan kayu khusus, seperti kayu kosambi, yang memberikan
-          aroma dan rasa khas pada daging.
-        </p>
-        <p>
-          Proses pengasapan ini membuat daging Sei Sapi memiliki tekstur yang
-          empuk dan cita rasa yang gurih dengan sedikit sentuhan asap. Biasanya
-          Sei Sapi disajikan dengan nasi putih, sambal lu'at (sambal khas NTT
-          yang terbuat dari cabai, jeruk, dan daun kemangi), serta sayur
-          pelengkap seperti tumis bunga pepaya atau daun singkong.
-        </p>
-        <p>
-          Sei Sapi memiliki rasa yang sederhana namun kaya akan aroma asap dan
-          rempah yang alami, membuatnya menjadi salah satu kuliner ikonik dari
-          wilayah timur Indonesia.
-        </p>
-      </dd>
-      <dt>
-        <h3>Jagung Bose</h3>
-      </dt>
-      <dd>
-        <img src="assets/images/jagung-bose.jpg" alt="" width="500px" />
-        <p>
-          Jagung Bose adalah makanan tradisional khas dari Nusa Tenggara Timur
-          (NTT), yang terbuat dari jagung yang direbus bersama kacang-kacangan
-          dan santan. Hidangan ini merupakan makanan pokok masyarakat setempat
-          dan sering disajikan sebagai pendamping hidangan utama seperti daging,
-          ikan, atau lauk lainnya.
-        </p>
-        <p>
-          Jagung yang digunakan biasanya adalah jenis jagung putih, yang dimasak
-          hingga teksturnya menjadi lembut. Kacang-kacangan seperti kacang merah
-          atau kacang hijau ditambahkan untuk memberikan tekstur dan rasa yang
-          lebih kaya. Setelah itu, campuran jagung dan kacang dimasak dengan
-          santan hingga menghasilkan rasa gurih dan lembut.
-        </p>
-        <p>
-          Jagung Bose memiliki rasa yang ringan dan creamy karena perpaduan
-          kacang dan santan, sehingga cocok untuk dinikmati bersama hidangan
-          dengan cita rasa yang lebih kuat. Makanan ini juga dianggap sebagai
-          simbol kebersamaan dan kerap disajikan dalam acara-acara adat atau
-          perayaan di NTT.
-        </p>
-      </dd>
-    </dl>
+              <p>
+                Bahan utama dalam lawar adalah kacang panjang yang dicampur
+                dengan kelapa parut yang disangrai, bawang merah, bawang putih,
+                cabai, kunyit, lengkuas, dan daun jeruk. Lawar juga sering kali
+                menggunakan terasi (pasta udang) dan bumbu Bali yang kaya akan
+                cita rasa.
+              </p>
+              <p>
+                Lawar biasanya disajikan sebagai lauk pendamping nasi dan
+                menjadi bagian dari sajian dalam upacara adat atau pesta besar
+                di Bali. Terdapat berbagai jenis lawar, seperti lawar merah
+                (mengandung darah), lawar putih (tanpa darah), dan lawar
+                sayuran.
+              </p>
+              <button class="recipe-btn" onclick="showRecipe('lawar')">
+                Lihat Resep
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Nusa Tenggara Barat" class="region-section">
+        <h2 class="region-title">Nusa Tenggara Barat</h2>
+        <div class="food-list">
+          <div class="food-item">
+            <img
+              class="food-image"
+              src="assets/images/sate-rembiga.jpeg"
+              alt="Sate Rembiga"
+            />
+            <div class="food-details">
+              <h3>Sate Rembiga</h3>
+              <p>
+                Sate Rembiga adalah sate khas Lombok, Nusa Tenggara Barat, yang
+                terkenal dengan cita rasa pedas dan gurih. Sate ini biasanya
+                dibuat dari daging sapi yang dipotong kecil-kecil, lalu dibumbui
+                dengan rempah-rempah khas seperti cabai, bawang putih, bawang
+                merah, gula merah, terasi, dan garam. Setelah daging dibumbui,
+                sate dipanggang di atas arang hingga matang sempurna,
+                menciptakan aroma bakaran yang menggugah selera.
+              </p>
+              <p>
+                Keunikan Sate Rembiga terletak pada bumbu pedas manis yang
+                meresap hingga ke dalam daging, memberikan sensasi rasa yang
+                kaya dan kuat. Sate ini dinamai dari desa asalnya, yaitu Desa
+                Rembiga, yang terletak di kota Mataram, Lombok. Sate Rembiga
+                biasanya disajikan dengan lontong atau nasi, serta sambal dan
+                irisan mentimun untuk menambah kesegaran.
+              </p>
+              <button class="recipe-btn" onclick="showRecipe('sate-rembiga')">
+                Lihat Resep
+              </button>
+            </div>
+          </div>
+          <div class="food-item">
+            <img
+              class="food-image"
+              src="assets/images/ayam-taliwang.jpe"
+              alt="Ayam Taliwang"
+            />
+            <div class="food-details">
+              <h3>Ayam Taliwang</h3>
+              <p>
+                Ayam Taliwang adalah hidangan khas dari Lombok, Nusa Tenggara
+                Barat, yang terkenal dengan rasa pedas, gurih, dan kaya rempah.
+                Hidangan ini menggunakan ayam kampung muda yang dibakar atau
+                digoreng, lalu disajikan dengan bumbu khas yang terbuat dari
+                cabai merah, bawang merah, bawang putih, tomat, terasi, dan
+                garam. Bumbu tersebut diolah menjadi sambal yang dilumurkan pada
+                ayam sebelum dan sesudah proses pembakaran, sehingga bumbunya
+                meresap sempurna.
+              </p>
+              <p>
+                Ayam Taliwang adalah hidangan khas dari Lombok, Nusa Tenggara
+                Barat, yang terkenal dengan rasa pedas, gurih, dan kaya rempah.
+                Hidangan ini menggunakan ayam kampung muda yang dibakar atau
+                digoreng, lalu disajikan dengan bumbu khas yang terbuat dari
+                cabai merah, bawang merah, bawang putih, tomat, terasi, dan
+                garam. Bumbu tersebut diolah menjadi sambal yang dilumurkan pada
+                ayam sebelum dan sesudah proses pembakaran, sehingga bumbunya
+                meresap sempurna.
+              </p>
+              <button class="recipe-btn" onclick="showRecipe('ayam-taliwang')">
+                Lihat Resep
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Nusantara Tenggara Timur" class="region-section">
+        <h2 class="region-title">Nusa Tenggara Timur</h2>
+        <div class="food-list">
+          <div class="food-item">
+            <img
+              class="food-image"
+              src="assets/images/sei-sapi.jpg"
+              alt="Sate Sapi"
+            />
+            <div class="food-details">
+              <h3>Sei Sapi</h3>
+              <p>
+                Sei Sapi adalah hidangan khas dari Nusa Tenggara Timur (NTT),
+                terutama populer di Pulau Rote dan Kota Kupang. "Sei" dalam
+                bahasa Rote berarti "daging asap", sehingga Sei Sapi merujuk
+                pada daging sapi yang diolah dengan cara diasapi. Daging sapi
+                dipotong tipis memanjang, kemudian diasapi menggunakan kayu
+                khusus, seperti kayu kosambi, yang memberikan aroma dan rasa
+                khas pada daging.
+              </p>
+              <p>
+                Proses pengasapan ini membuat daging Sei Sapi memiliki tekstur
+                yang empuk dan cita rasa yang gurih dengan sedikit sentuhan
+                asap. Biasanya Sei Sapi disajikan dengan nasi putih, sambal
+                lu'at (sambal khas NTT yang terbuat dari cabai, jeruk, dan daun
+                kemangi), serta sayur pelengkap seperti tumis bunga pepaya atau
+                daun singkong.
+              </p>
+              <button class="recipe-btn" onclick="showRecipe('sei-sapi')">
+                Lihat Resep
+              </button>
+            </div>
+          </div>
+
+          <div class="food-item">
+            <img
+              class="food-image"
+              src="assets/images/jagung-bose.jpg"
+              alt="Jagung Bose"
+            />
+            <div class="food-details">
+              <h3>Jagung Bose</h3>
+              <p>
+                Jagung Bose adalah makanan tradisional khas dari Nusa Tenggara
+                Timur (NTT), yang terbuat dari jagung yang direbus bersama
+                kacang-kacangan an santan. Hidangan ini merupakan makanan pokok
+                masyarakat setempat dan sering disajikan sebagai pendamping
+                hidangan utama seperti daging, ikan, atau lauk lainnya.
+              </p>
+              <p>
+                agung yang digunakan biasanya adalah jenis jagung putih, yang
+                dimasak hingga teksturnya menjadi lembut. Kacang-kacangan
+                seperti kacang merah atau kacang hijau ditambahkan untuk
+                memberikan tekstur dan rasa yang lebih kaya. Setelah itu,
+                campuran jagung dan kacang dimasak dengan santan hingga
+                menghasilkan rasa gurih dan lembut.
+              </p>
+              <p>
+                Jagung Bose memiliki rasa yang ringan dan creamy karena
+                perpaduan kacang dan santan, sehingga cocok untuk dinikmati
+                bersama hidangan dengan cita rasa yang lebih kuat. Makanan ini
+                juga dianggap sebagai simbol kebersamaan dan kerap disajikan
+                dalam acara-acara adat atau perayaan di NTT.
+              </p>
+              <button class="recipe-btn" onclick="showRecipe('jagung-bose')">
+                Lihat Resep
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <footer>
-      <p>
-        &copy; <font face="Dubai"><b>2024 Kelompok 3 R5G</b></font>
-      </p>
+      <p>&copy; 2024 Kelompok 3 R5G</p>
     </footer>
+
+    <!-- Popup Modal -->
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <span class="close-btn">&times;</span>
+        <h3 id="popup-title">Resep</h3>
+        <p id="popup-body">Isi resep akan muncul di sini...</p>
+      </div>
+    </div>
   </body>
 </html>

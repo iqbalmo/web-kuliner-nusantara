@@ -4,42 +4,73 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beranda | Kuliner Nusantara</title>
-  </head>
-
-  <body bgcolor="F9DBBA">
-    <iframe src="Navbar.html" width="30%" height="70px" frameborder=""></iframe>
-    <h1>
-      <font face="Artifakt Element Black">Kuliner Nusantara</font>
-    </h1>
-    <p>
-      Nusantara tidak hanya kaya akan budaya, tetapi juga menyimpan warisan
-      kuliner yang luar biasa. Di sini, Anda akan menemukan beragam sajian
-      tradisional dari berbagai daerah di Indonesia, mulai dari Sabang hingga
-      Merauke. Setiap masakan memiliki cerita, filosofi, dan kekayaan rasa yang
-      menjadikannya unik. Melalui situs ini, kami mengajak Anda untuk
-      menjelajahi kelezatan kuliner Nusantara, mempelajari bahan-bahan lokal
-      yang otentik, serta memahami teknik memasak yang diwariskan secara
-      turun-temurun. Temukan keanekaragaman rempah-rempah, hidangan khas, serta
-      sejarah di balik setiap piring yang tersaji.
-    </p>
-    <p>
-      <b
-        >Selamat menikmati perjalanan rasa di Nusantara, di mana setiap suapan
-        adalah sebuah pengalaman baru!</b
-      >
-    </p>
-    <img
-      src="assets/images/kuliner Indonesia.jpg"
-      width="100%"
-      alt="Kuliner Nusantara"
+    <link rel="stylesheet" href="assets/css/beranda.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
     />
-    <video controls width="100%">
-      <source src="assets/videos/kuliner-indonesia.mp4" type="video/mp4">
-      <source src="assets/videos/kuliner-indonesia.mkv" type="video/mkv">
-      Browser Anda tidak mendukung video ini.
-  </video>
+  </head>
+  <body>
+    <header>
+      <iframe src="Navbar.html" class="navbar"></iframe>
+    </header>
+    <main class="fade-in">
+      <h1 class="main-title">Kuliner Nusantara</h1>
+      <section class="intro">
+        <p>
+          Nusantara tidak hanya kaya akan budaya, tetapi juga menyimpan warisan
+          kuliner yang luar biasa. Di sini, Anda akan menemukan beragam sajian
+          tradisional dari berbagai daerah di Indonesia, mulai dari Sabang
+          hingga Merauke. Setiap masakan memiliki cerita, filosofi, dan kekayaan
+          rasa yang menjadikannya unik.
+        </p>
+        <p>
+          Melalui situs ini, kami mengajak Anda untuk menjelajahi kelezatan
+          kuliner Nusantara, mempelajari bahan-bahan lokal yang otentik, serta
+          memahami teknik memasak yang diwariskan secara turun-temurun. Temukan
+          keanekaragaman rempah-rempah, hidangan khas, serta sejarah di balik
+          setiap piring yang tersaji.
+        </p>
+        <p class="highlight">
+          <strong>
+            Selamat menikmati perjalanan rasa di Nusantara, di mana setiap
+            suapan adalah sebuah pengalaman baru!
+          </strong>
+        </p>
+      </section>
+      <section class="media">
+        <section class="slider-container">
+          <div class="slider">
+            <img
+              src="assets/images/kuliner-nusantara-1.jpg"
+              alt="Gambar 1"
+              class="slide"
+            />
+            <img
+              src="assets/images/kuliner-nusantara-2.jpg"
+              alt="Gambar 2"
+              class="slide"
+            />
+            <img
+              src="assets/images/kuliner-nusantara-3.jpg"
+              alt="Gambar 3"
+              class="slide"
+            />
+          </div>
+          <button class="slider-button prev">&laquo;</button>
+          <button class="slider-button next">&raquo;</button>
+        </section>
+        <video controls class="promo-video">
+          <source src="assets/videos/kuliner-indonesia.mp4" type="video/mp4" />
+          <source src="assets/videos/kuliner-indonesia.mkv" type="video/mkv" />
+          Browser Anda tidak mendukung video ini.
+        </video>
+      </section>
+    </main>
     <footer>
-      <p>&copy; <font face="Dubai"><b>2024 Kelompok 3 R5G</b></font></p>
+      <p>&copy; <strong>2024 Kelompok 3 R5G</strong></p>
     </footer>
+
+    <script src="assets/js/beranda.js"></script>
   </body>
 </html>
